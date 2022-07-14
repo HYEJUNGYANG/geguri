@@ -10,6 +10,26 @@ body {
   flex-direction: column;
 }
 
+p {
+  display: none;
+  font-size: 5px;
+  color: lightgray;
+  margin: 0;
+  padding: 0;
+}
+
+.click {
+  color: rgb(127, 127, 127);
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 5px;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
 span {
   display: inline-flex;
   box-sizing: border-box;
