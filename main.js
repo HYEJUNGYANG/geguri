@@ -24,6 +24,9 @@ no.onmousemove = evt => {
     p.style.display = 'block';
   }
 };
+no.onclick = () => {
+  alert('이걸 클릭하다니 대단해!!! 네 한번만 눌러줘잉 🥺');
+};
 p.onclick = () => {
   p.style.display = 'none';
   no.style.left = 0;
